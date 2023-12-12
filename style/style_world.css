@@ -91,7 +91,7 @@ canvas {
     width: 5%
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
     #container {
         height: 40%
     }
