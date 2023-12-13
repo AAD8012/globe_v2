@@ -1,0 +1,593 @@
+@keyframes appearFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.letrasConEfecto {
+    opacity: 0;
+}
+
+#navbar {
+    font-size: .7vw;
+    padding: 0% 19%;
+}
+
+#miImagen {
+    width: 20%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../assets/derecha.png");
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../assets/izquierda.png");
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn-prev {
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    color: black;
+}
+
+.btn-next {
+    position: absolute;
+    top: 41%;
+    right: 18%;
+    color: black;
+}
+
+#carrucel-desktop {
+    height: 100vh;
+    display: block;
+}
+
+#carrucel-mobile {
+    display: none;
+}
+
+#conocenos-desktop {
+    display: block;
+}
+
+#conocenos-mobile {
+    display: none;
+}
+
+#partners-mobile {
+    display: none;
+}
+
+#partners-desktop {
+    display: block;
+}
+
+#footer-mobile {
+    display: none;
+}
+
+#footer-desktop {
+    display: block;
+}
+
+.conocenos_1 {
+    transition: transform 0.3s ease;
+    /* Efecto de transición en 0.3 segundos */
+
+}
+
+.conocenos_1:hover {
+    transform: scale(1.2);
+    /* Escala la imagen al 120% cuando esté en estado hover */
+}
+
+#image_1 {
+    display: none;
+}
+
+#aruba:hover {
+    #image_1 {
+        display: block;
+    }
+
+    #image_2 {
+        display: none;
+    }
+}
+
+#image_3 {
+    display: none;
+}
+
+#assac:hover {
+    #image_3 {
+        display: block;
+    }
+
+    #image_4 {
+        display: none;
+    }
+}
+
+#image_5 {
+    display: none;
+}
+
+#automotion:hover {
+    #image_5 {
+        display: block;
+    }
+
+    #image_6 {
+        display: none;
+    }
+}
+
+#image_7 {
+    display: none;
+}
+
+#aws:hover {
+    #image_7 {
+        display: block;
+    }
+
+    #image_8 {
+        display: none;
+    }
+}
+
+#image_9 {
+    display: none;
+}
+
+#azure:hover {
+    #image_9 {
+        display: block;
+    }
+
+    #image_10 {
+        display: none;
+    }
+}
+
+#image_11 {
+    display: none;
+}
+
+#blanco:hover {
+    #image_11 {
+        display: block;
+    }
+
+    #image_12 {
+        display: none;
+    }
+}
+
+#image_13 {
+    display: none;
+}
+
+#hitachi:hover {
+    #image_13 {
+        display: block;
+    }
+
+    #image_14 {
+        display: none;
+    }
+}
+
+#image_15 {
+    display: none;
+}
+
+#intel:hover {
+    #image_15 {
+        display: block;
+    }
+
+    #image_16 {
+        display: none;
+    }
+}
+
+#image_17 {
+    display: none;
+}
+
+#jamf:hover {
+    #image_17 {
+        display: block;
+    }
+
+    #image_18 {
+        display: none;
+    }
+}
+
+#image_19 {
+    display: none;
+}
+
+#qlink:hover {
+    #image_19 {
+        display: block;
+    }
+
+    #image_20 {
+        display: none;
+    }
+}
+
+#image_21 {
+    display: none;
+}
+
+#net:hover {
+    #image_21 {
+        display: block;
+    }
+
+    #image_22 {
+        display: none;
+    }
+}
+
+#image_23 {
+    display: none;
+}
+
+#nut:hover {
+    #image_23 {
+        display: block;
+    }
+
+    #image_24 {
+        display: none;
+    }
+}
+
+#image_25 {
+    display: none;
+}
+
+#power:hover {
+    #image_25 {
+        display: block;
+    }
+
+    #image_26 {
+        display: none;
+    }
+}
+
+#image_27 {
+    display: none;
+}
+
+#red:hover {
+    #image_27 {
+        display: block;
+    }
+
+    #image_28 {
+        display: none;
+    }
+}
+
+#image_29 {
+    display: none;
+}
+
+#service:hover {
+    #image_29 {
+        display: block;
+    }
+
+    #image_30 {
+        display: none;
+    }
+}
+
+#image_31 {
+    display: none;
+}
+
+#cye:hover {
+    #image_31 {
+        display: block;
+    }
+
+    #image_32 {
+        display: none;
+    }
+}
+
+#image_33 {
+    display: none;
+}
+
+#hp:hover {
+    #image_33 {
+        display: block;
+    }
+
+    #image_34 {
+        display: none;
+    }
+}
+
+#image_35 {
+    display: none;
+}
+
+#hpe:hover {
+    #image_35 {
+        display: block;
+    }
+
+    #image_36 {
+        display: none;
+    }
+}
+
+#image_37 {
+    display: none;
+}
+
+#micro:hover {
+    #image_37 {
+        display: block;
+    }
+
+    #image_38 {
+        display: none;
+    }
+}
+
+#image_39 {
+    display: none;
+}
+
+#vm:hover {
+    #image_39 {
+        display: block;
+    }
+
+    #image_40 {
+        display: none;
+    }
+}
+
+#image_41 {
+    display: none;
+}
+
+#ivanti:hover {
+    #image_41 {
+        display: block;
+    }
+
+    #image_42 {
+        display: none;
+    }
+}
+
+#image_43 {
+    display: none;
+}
+
+#veem:hover {
+    #image_43 {
+        display: block;
+    }
+
+    #image_44 {
+        display: none;
+    }
+}
+
+#image_45 {
+    display: none;
+}
+
+#dell:hover {
+    #image_45 {
+        display: block;
+    }
+
+    #image_46 {
+        display: none;
+    }
+}
+
+#image_47 {
+    display: none;
+}
+
+#naudi:hover {
+    #image_47 {
+        display: block;
+    }
+
+    #image_48 {
+        display: none;
+    }
+}
+
+#image_49 {
+    display: none;
+}
+
+#ssl:hover {
+    #image_49 {
+        display: block;
+    }
+
+    #image_50 {
+        display: none;
+    }
+}
+
+.container-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    will-change: transform;
+    transition: transform 0.5s linear;
+}
+
+.image-container_zoom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    will-change: transform;
+    transition: transform 1s ease-out;
+    /* Transición más larga para el zoom */
+}
+
+.image1 {
+    z-index: 1;
+}
+
+.image2 {
+    background-image: url("../3.png");
+    z-index: 2;
+    transform-origin: center center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes appearFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.letrasConEfectoVideo h1 {
+    overflow: hidden;
+    position: relative;
+    font-size: 3vw !important;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.letrasConEfectoVideo h1 span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(100%);
+
+}
+
+.letrasConEfectoVideo {
+    overflow: hidden;
+    position: relative;
+    font-size: 3vw;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.letrasConEfectoVideo {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.letrasConEfectoVideo-sub {
+    font-size: 2vw
+}
+
+
+@media (max-width: 500px) {
+    #navbar {
+        font-size: 1.2vw;
+        padding: 0% 5%;
+    }
+
+    #miImagen {
+        width: 10px;
+    }
+
+    #partners-mobile {
+        display: block;
+    }
+
+    #partners-desktop {
+        display: none;
+    }
+
+    #conocenos-desktop {
+        display: none;
+    }
+
+    #conocenos-mobile {
+        display: block;
+    }
+
+    #carrucel-desktop {
+
+        display: none;
+    }
+
+    #carrucel-mobile {
+        display: block;
+        height: 80vh;
+    }
+
+    .letrasConEfectoVideo {
+        overflow: hidden;
+        position: relative;
+        font-size: 7vw;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .letrasConEfectoVideo {
+        display: inline-block;
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    .letrasConEfectoVideo-sub {
+        font-size: 6vw
+    }
+
+    #footer-mobile {
+        display: block;
+    }
+
+    #footer-desktop {
+        display: none;
+    }
+}

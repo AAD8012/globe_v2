@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: white url(../loading.gif) center center no-repeat;
-    color: #ffffff;
+    color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     height: 100%;
@@ -61,8 +61,6 @@ h1 span {
     display: inline-block;
     opacity: 0;
     transform: translateY(100%);
-    animation: appearFromBottom 0.5s forwards;
-    animation-delay: calc(0.5s * var(--index));
 }
 
 canvas {
