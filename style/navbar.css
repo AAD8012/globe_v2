@@ -77,6 +77,18 @@
     display: block;
 }
 
+.btn-view-all div:first-child {
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-all:hover div:first-child {
+    background-color: #9377ab;
+}
+
+.title:hover {
+    color: #7B8080;
+}
+
 .conocenos_1 {
     transition: transform 0.3s ease;
     /* Efecto de transición en 0.3 segundos */
@@ -86,6 +98,10 @@
 .conocenos_1:hover {
     transform: scale(1.2);
     /* Escala la imagen al 120% cuando esté en estado hover */
+}
+
+.title-conocenos:hover {
+    color: #BCC8D1;
 }
 
 #image_1 {
@@ -529,10 +545,71 @@ video {
 }
 
 
+.contenedor {
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    opacity: 0;
+    /* Inicialmente oculta la imagen */
+    transition: opacity 0.2s linear;
+    /* Efecto de transición en la opacidad */
+}
+
+.contenedor:hover .imagen {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.parrafo_1 {
+    opacity: 0;
+}
+
+.parrafo {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+}
+
+.contenedor:hover .parrafo {
+    top: 0%;
+    font-weight: 500;
+
+}
+
+.modal-verticales {
+    width: 71%;
+}
+
+.title-modal {
+    font-size: 1.5vw
+}
+
+.number {
+    font-size: 1vw;
+}
+
 @media (max-width: 500px) {
+    .title-modal {
+        font-size: 4vw
+    }
+
+    .number {
+        font-size: 3vw;
+    }
+
+    .modal-verticales {
+        width: auto;
+    }
+
     #navbar {
         font-size: 1.2vw;
-        padding: 0% 5%;
+        padding: 0 5%;
     }
 
     #miImagen {
@@ -564,6 +641,7 @@ video {
         display: block;
         height: 80vh;
     }
+
 
     .letrasConEfectoVideo {
         overflow: hidden;
